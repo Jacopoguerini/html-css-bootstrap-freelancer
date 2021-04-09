@@ -3,6 +3,9 @@ h1 {
     text-transform: uppercase;
 }
 
+section {
+    text-align: center;
+}
 section h2 {
     text-transform: uppercase;
 }
@@ -33,7 +36,6 @@ nav a {
 /* main */
 #portfolio {
     background-color: white;
-    text-align: center;
 }
 #portfolio img {
     width: 100%;
@@ -42,7 +44,10 @@ nav a {
 
 #about {
     background-color: #1abc9c;
-    text-align: center;
     color: white;
+}
+
+#contact {
+    background-color: white;
 }
 
