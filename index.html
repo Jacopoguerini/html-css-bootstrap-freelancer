@@ -13,13 +13,13 @@
         <!-- header -->
         <header>
             <!-- navbar -->
-            <nav>
+            <!-- <nav>
                 <div class="container navbar">
-                    <div id="nav-home" class="navbar-left col-xs-7">
+                    <div id="nav-home" class="navbar-left col-xs-8">
                         <a href="#" class="navbar-brand white">start bootstrap</a>
                     </div>
                     
-                    <ul class="nav nav-pills navbar-right visible-md-block visible-lg-block">
+                    <ul class="nav nav-pills navbar-right hidden-xs-block visible-md-block visible-lg-block">
                         <li class="nav-item">
                             <a href="#portfolio" class="white">portfolio</a>
                         </li>
@@ -31,14 +31,48 @@
                         </li>
                     </ul>
 
-                    <div id="nav-icon" class="text-right navbar-right col-xs-5 visible-xs-block visible-sm-block">
+                    <div id="nav-icon" class="text-right navbar-right col-xs- visible-xs-block visible-sm-block">
                         <a href="#" class="white">
                             <i class="fas fa-bars"></i>
                         </a>
                     </div>
                 </div>        
-            </nav>
+            </nav> -->
             <!-- /navbar -->
+
+            <!-- navbar test -->
+
+            <nav>
+                <div class="container">
+                  <!-- Brand and toggle get grouped for better mobile display -->
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" id="nav-icon" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a id="nav-home" class="navbar-brand" href="#">Start Bootstrap</a>
+                  </div>
+              
+                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                      <li class="nav-option"><a href="#portfolio">Portfolio</a></li>
+                      <li class="nav-option"><a href="#about">About</a></li>
+                      <li n
+                      class="nav-option"><a href="#contact">contact</a></li>                
+                    </ul>
+                  </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+              </nav>
+            <!-- <span class="glyphicon glyphicon-star my_star" aria-hidden="true"></span> -->
+    
+            <!-- <button type="button" class="btn btn_boolean">Pulsante Bootstrap</button> -->
+        
+            <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>             
+            <!-- /navbar test -->
 
             <!-- jumbotron -->
             <div id="jumbotron" class="text-center">
@@ -63,7 +97,7 @@
         <main>
             <!-- portfolio section -->
             <section id="portfolio">
-                <div class="container text-center">
+                <div class="container">
                     <h2>portfolio</h2>
 
                     <div class="divider">
@@ -73,41 +107,54 @@
                         </div>
                         <div class="divider-line"></div>
                     </div>
-                
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-                        <a href="#">
-                            <img src="img/cabin.png" alt="cabin-icon">
-                        </a>
-                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                            <div class="portfolio_item">
+                                <a href="#">
+                                    <img src="img/cabin.png" alt="cabin-icon">
+                                </a>
+                            </div>
+                        </div>
 
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-                        <a href="#">
-                            <img src="img/cake.png" alt="cake-icon">
-                        </a>
-                    </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                            <div class="portfolio_item">
+                                <a href="#">
+                                    <img src="img/cake.png" alt="cake-icon">
+                                </a>
+                            </div>
+                        </div>
 
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-                        <a href="#">
-                            <img src="img/circus.png" alt="circus-icon">
-                        </a>
-                    </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                            <div class="portfolio_item">
+                                <a href="#">
+                                    <img src="img/circus.png" alt="circus-icon">
+                                </a>
+                            </div>
+                        </div>
 
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-                        <a href="#">
-                            <img src="img/game.png" alt="game-icon">
-                        </a>
-                    </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                            <div class="portfolio_item">
+                                <a href="#">
+                                    <img src="img/game.png" alt="game-icon">
+                                </a>
+                            </div>
+                        </div>
 
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-                        <a href="#">
-                            <img src="img/safe.png" alt="safe-icon">
-                        </a>
-                    </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                            <div class="portfolio_item">
+                                <a href="#">
+                                    <img src="img/safe.png" alt="safe-icon">
+                                </a>
+                            </div>
+                        </div>
 
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-                        <a href="#">
-                            <img src="img/submarine.png" alt="submarine-icon">
-                        </a>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                            <div class="portfolio_item">
+                                <a href="#">
+                                    <img src="img/submarine.png" alt="submarine-icon">
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -115,31 +162,33 @@
 
             <!-- about section -->
             <section id="about">
-                <div class="container text-center">
-                    <h2>about</h2>
-
-                    <div class="divider">
-                        <div class="divider-line"></div>
-                        <div class="divider-star">
-                            <i class="fas fa-star"></i>
+                <div class="wrapper_60">
+                    <div class="container-fluid white text-center">
+                        <h2>about</h2>
+                        <div class="divider">
+                            <div class="divider-line"></div>
+                            <div class="divider-star">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="divider-line"></div>
                         </div>
-                        <div class="divider-line"></div>
+
+                        <div class="row text-left">
+                            <div class="col-xs-12 col-md-6">
+                                <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+                            </div>
+
+                            <div class="col-xs-12 col-md-6">
+                                <p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+                            </div>
+                        </div>
+
+                        <a href="#" class="btn white" id="download-btn">
+                            <span>
+                                <i class="fas fa-download"></i> Download
+                            </span>
+                        </a>
                     </div>
-
-                    <div class="row text-left">
-                        <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-1 col-lg-4 col-lg-offset-2">
-                            <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
-                        </div>
-                        <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1 col-md-5 col-md-offset-0 col-lg-4 col-lg-offset-0">
-                            <p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
-                        </div>
-                    </div>
-
-                    <a href="#" class="btn white" id="download-btn">
-                        <span>
-                            <i class="fas fa-download"></i> Download
-                        </span>
-                    </a>
                 </div>
             </section>
             <!-- /about section -->
@@ -147,7 +196,7 @@
             <!-- contact section -->
             <section id="contact">
                 <div class="container">
-                    <h2 class="text-center">contact me</h2>
+                    <h2>contact me</h2>
 
                     <div class="divider text-center">
                         <div class="divider-line"></div>
@@ -196,29 +245,63 @@
 
         <!-- footer -->
         <footer>
+            <!-- footer info -->
             <div id="information">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12">location</div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-12">around the web</div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-12">about freelancer</div>
+                    <div class="row text-center">
+                        <div class="col-xs-12 col-md-4">
+                            <h3>location</h3>
+                            <p>2215 John Daniel Drive Clark, MO 65243</p>                            
+                        </div>
+
+                        <div class="col-xs-12 col-md-4">
+                            <h3>around the web</h3>
+                            <ul id="logo_list">
+                                <li>
+                                    <div class="social_btn">
+                                        <a href="#">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="social_btn">
+                                        <a href="#">
+                                            <i class="fab fa-google-plus-g"></i>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="social_btn">
+                                        <a href="#">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="social_btn">
+                                        <a href="#">
+                                            <i class="fab fa-linkedin-in"></i>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-xs-12 col-md-4">
+                            <h3>about freelancer</h3>
+                        </div>
                     </div>
                 </div>
             </div>
+            <!-- /footer info -->
+
+            <!-- footer copyright -->
+            <div id="copyright" class="text-center">
+                <p>Copyright &copy; Your Website 2019</p>
+            </div>
+            <!-- /footer copyright -->
         </footer>
-        <div id="copyright">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <p>Copyright &copy; Your Website 2019</p>
-                    </div>
-                </div>
-            </div>
-        </div>
         <!-- /footer -->
     </body>
 </html>
