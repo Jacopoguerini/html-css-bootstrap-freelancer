@@ -114,6 +114,7 @@ nav .icon-bar {
 }
 
 #jumbotron {
+    margin-top: 70px;
     margin-bottom: 0;
     padding: 50px 0;
     background-color: #1abc9c;
@@ -128,7 +129,7 @@ nav .icon-bar {
 
 /* main */
 #portfolio {
-    padding: 40px 0 30px 0;
+    padding: 70px 0 30px 0;
     background-color: white;
     color: #353535;
     text-align: center;
@@ -148,9 +149,33 @@ nav .icon-bar {
 }
 
 #about {
-    padding: 40px 0 30px 0;
+    padding: 70px 0 30px 0;
     background-color: #1abc9c;
 }
+
+.input-section {
+    margin-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+}
+.input-section input,
+.input-section textarea {
+    width: 100%;
+    display: block;
+    border: none;
+    padding: 10px 0;
+}
+
+#send-btn {
+    margin: 20px 0;
+    color: white;
+    background-color: #1abc9c;
+    border: 1px solid #1abc9c;
+}
+#send-btn:hover {
+    color: #1abc9c;
+    background-color: white;
+}
+
 #download-btn {
     padding: 8px 15px;
     border: 1px solid white;
@@ -164,7 +189,7 @@ nav .icon-bar {
 
 #contact {
     background-color: white;
-    padding: 40px 0 30px 0;
+    padding: 70px 0 30px 0;
 }
 
 #contact .divider {
@@ -195,8 +220,8 @@ footer {
 .social_btn {
     display: inline-block;
     border-radius: 50%;
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     border: 1px solid white;
     position: relative;
 }
@@ -214,6 +239,18 @@ footer {
 }
 #logo_list li:not(:last-child) {
     margin-right: 10px;
+}
+
+#information {
+    padding: 40px 0;
+}
+
+#information .start-link {
+    color: #1abc9c;
+    text-decoration: none;
+}
+#information .start-link:hover {
+    text-decoration: underline;
 }
 
 #copyright {
